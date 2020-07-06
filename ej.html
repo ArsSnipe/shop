@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <style>
+      .a10{
+        background: #330000;
+      }
+      .a11{
+        background: #808080;
+      }
+      .a12{
+        background-color:#00ffbf;
+      }
+      .a13{
+       background-color: #ffff00;
+      }
+      .carda{
+        display:inline-block; 
+      }
+      .ptext{
+       
+       text-decoration:none;
+       color:#00ffbf;
+      }
+    </style>
+    <title>
+    </title>
+  </head>
+  <body class="a">
+ 
+     <div class="container-fluid">
+      <div class="row align-items-center p-2 a10 text-light">
+          <div class="col-md-3  d-none d-md-block h6"> (+374) 000-00-00-00</div>
+          <div class="col-md-3  d-none d-md-block h5 text-center"> Welcome to PC store</div>
+          <div class="col-6 col-md-2  d-block"> 
+              <select class="custom-select a10 text-white" style="border: none;">
+                <option selected>USD</option>
+                <option value="1">RUB</option>
+                <option value="2">AMD</option>
+              </select>
+          </div>
+          <div class=" col-6 col-md-2 d-block">
+               <select class="custom-select a10 text-white" style="border: none;">
+                  <option selected>EN</option>
+                  <option value="1">RU</option>
+                  <option value="2">AM</option>
+              </select>
+          </div>
+          <div class="col-md-2 col-lg-2 d-none d-md-block  ">
+           <button type="button" class="btn btn-outline-dark a10 text-white float-right">
+                Wishlist <span class="badge badge-light">10</span>
+           </button>
+          </div>
+         
+      </div>
+
+    <div class="row b1  align-items-center p-1  text-light">
+      <div class="col-6 col-md-2 ">
+        <a href="index.html" class="link ml-1"><img src="https://us.123rf.com/450wm/dragomirescu/dragomirescu1708/dragomirescu170800390/84888625-ak-a-k-letter-logo-combination-black-white-alphabet.jpg?ver=6" alt="" loading="lazy" width="40" height="40"></a>
+      </div>
+      <div class="col-md-8  d-none d-md-block ">
+        <form class="form-inline float-right mr-3">
+        <input  class="form-control mr-sm-2 b1 border-dark text-danger btn-outline-dark" type="search" placeholder="Search" aria-label="Search">
+        <button type="button" class="btn btn-outline-dark a10 text-white float-right" >Search</button>
+      </form>
+      <a href="https://avatars3.githubusercontent.com/u/20368191?s=400&u=de1fe39cf46a5837bba4674932f12ad38becd1c1&v=4"></a>
+      </div>
+      <div class="col-6 col-md-2 pr-3 ">
+         <div class="dropdown float-right ">
+          <button class=" btn btn-outline-dark a10 text-white float-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My account
+          </button>
+          <div class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#LoginModal">Login</a>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div></a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">Registration</a>
+            <a class="dropdown-item" href="#">My Orders</a>
+            <a class="dropdown-item" href="#">Account Settings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Sure Name</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                        <div class="form-group">
+                  <label for="exampleInputPassword1">Address</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                   <div class="form-group">
+                  <label for="exampleInputPassword1">Phone Number</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+           
+           
+                <button type="submit" class="btn btn-primary">Sing in</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+           
+                <button type="submit" class="btn btn-primary">Sign In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+  <div class="col-12 p-0">
+         <nav class="navbar navbar-expand-xl navbar-dark a12">
+  
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="outline: none; border: none;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ml-auto ">
+
+     
+       <li class="nav-item dropdown text-center">
+        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown1
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown text-center">
+        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown2
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown text-center">
+        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown3
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+       
+    </ul>
+    
+  </div>
+</nav>
+  </div>     
+</div> 
+
+</div>
+
+</div>
+
+  
+
+ <div class="row">
+
+        <div class="col-2  col-lg-2">
+
+
+
+
+          <div class="accordion" id="accordionExample">
+            <div class="card border-top-0 border-left-0 border-right-0">
+              <div class="card-header border-0 bg-white pl-0 p-md-2" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left rounded-0 text-secondary text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  COMPLE
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                   
+                </div>
+              </div>
+            </div>
+            <div class="card border-left-0 border-right-0">
+              <div class="card-header border-0 bg-white pl-0 p-md-2" id="headingTwo">
+                <h2 class="mb-0">
+                  
+                  
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+
+
+                  <form>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                     komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <label class="form-check-label" for="exampleRadios2">
+                      komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                      <label class="form-check-label" for="exampleRadios3">
+                       komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                      <label class="form-check-label" for="exampleRadios4">
+                       komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                      <label class="form-check-label" for="exampleRadios5">
+                       komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6">
+                      <label class="form-check-label" for="exampleRadios6">
+                      komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios7" value="option7">
+                      <label class="form-check-label" for="exampleRadios7">
+                        komputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios8" value="option8">
+                      <label class="form-check-label" for="exampleRadios8">
+                       komputer
+                      </label>
+                    </div>
+                  </form>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <div class="card border-left-0 border-right-0">
+              <div class="card-header border-0 bg-white pl-0 p-md-2" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed rounded-0 text-secondary text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    PC
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+
+
+                  <form>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                       Kamputers
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <label class="form-check-label" for="exampleRadios2">
+                       Kamputers
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                      <label class="form-check-label" for="exampleRadios3">
+                       Kamputers
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                      <label class="form-check-label" for="exampleRadios4">
+                       Kamputers 
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                      <label class="form-check-label" for="exampleRadios5">
+                       Kamputers 
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6">
+                      <label class="form-check-label" for="exampleRadios6">
+                       Kamputers
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios7" value="option7">
+                      <label class="form-check-label" for="exampleRadios7">
+                       Kamputers 
+                      </label>
+                    </div>
+                  </form>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0">
+              <div class="card-header bg-white pl-0 p-md-2" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed rounded-0 text-secondary text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    PC
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+
+                  <form>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                     Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <label class="form-check-label" for="exampleRadios2">
+                      Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                      <label class="form-check-label" for="exampleRadios3">
+                      Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                      <label class="form-check-label" for="exampleRadios4">
+                      Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                      <label class="form-check-label" for="exampleRadios5">
+                      Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6">
+                      <label class="form-check-label" for="exampleRadios6">
+                       Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios7" value="option7">
+                      <label class="form-check-label" for="exampleRadios7">
+                        Kamputer
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios8" value="option8">
+                      <label class="form-check-label" for="exampleRadios8">
+                        Kamputer
+                      </label>
+                    </div>
+                  </form>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="col-2 col-lg-10 pb-5">
+
+         <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">produkt</li>
+  </ol>
+</nav>
+          <div class="row mt-5">
+            <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+             <div class="col-12 col-md-6 col-lg-3 md-5">
+              <div><a href="produkt.html"><img src="https://i.pinimg.com/originals/b0/16/b3/b016b3037c2d747ab7f3972df76bc451.jpg"></a></div>
+              <div class="mt-3"><h6><a href="produkt.html" class="text-secondary text-decoration-none">Processor: Intel® Core™ i7-9700K
+RAM: Corsair VENGEANCE® 16GB DDR4 3200MHz 
+VideoCard: ASUS ROG STRIX GTX 1080Ti 11Gb OC</a></h6><span><del class="text_red">&#36;20.000</del> NOW $10.000 </span></div>
+            </div>
+
+            
+
+
+      </div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row a10 text-center">
+     
+     
+     
+      
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold"><a href="" class="text-decoration-none text-light">Group</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold"><a href="" class="text-decoration-none text-light">Group</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold"><a href="" class="text-decoration-none text-light">Group</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold"><a href="" class="text-decoration-none text-light">Group</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold"><a href="" class="text-decoration-none text-light">Group</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row a10 text-light">
+      <div class="col-12 text-center pt-3 pb-1">
+        <a href="#"> <img  class=" mr-2 ml-2" src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" loading="lazy" width="30" height="30"></a>
+       <a href="#"><img  class=" mr-2 ml-2" src="https://i1.wp.com/www.fashionrevolution.org/wp-content/uploads/2019/07/kisspng-social-media-marketing-youtube-instagram-photograp-instagram-logo-icon-png-5b875849ea5482.8768584615355966179598.png?fit=512%2C512&ssl=1" loading="lazy" width="30" height="30"></a>
+        <a href="#"><img  class=" mr-2 ml-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/YouTube_social_white_circle_%282017%29.svg/1200px-YouTube_social_white_circle_%282017%29.svg.png"  loading="lazy" width="30" height="30"></a>
+        <a href="#"><img class=" mr-2 ml-2" src="https://3.bp.blogspot.com/-NxouMmz2bOY/T8_ac97cesI/AAAAAAAAGg0/e3vY1_bdnbE/s1600/Twitter+logo+2012.png" loading="lazy" width="30" height="30"></a>
+        
+      </div>
+      <div class="col-12 text-center pt-1 pb-3">
+        &copy;Arsen Hakobyan
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  </body>
+</html>
